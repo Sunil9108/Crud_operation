@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:id="@+id/cd1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/t1"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:text="id"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FF5C00"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:id="@+id/t2"
+            android:paddingRight="100dp"
+            android:text="name"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:textColor="#0FF"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:id="@+id/t3"
+            android:paddingRight="20dp"
+            android:text="sal"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:textColor="#0FF"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
